@@ -13,7 +13,27 @@ body {
 	color:#0000CD;
 	margin-right: 1em;
 	text-align: center;
-	
+}
+table.calendar {
+	border-spacing: 0;
+	border: 1px solid #ccc;
+	border-left: 0;
+	border-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.calendar th, .calendar td{
+	border: 1px #ccc solid;
+	border-collapse: collapse;
+    border-top:0;
+    border-right:0;
+}
+.days {
+	background-color: #ccc;
+
+
+
 }
 .secondary-bg {
 	background-color: #f4f4f4;
