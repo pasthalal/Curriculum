@@ -1,18 +1,38 @@
 
 body {
 	font-size: 1em;
+	
+
 }
 
 #wrapper {
-	width:98%;
-	margin: 0.3125em auto;
-
+	width:200%;
+	margin: 1em auto auto 100px;
+	font-family:"times new roman", times, serif;
+	
+}
+/*Colors for links*/
+/* unvisited link */
+a:link {
+    color: #0000CD;}
+/* visited link */
+a:visited {
+    color: #800080;}
+/* mouse over link */
+a:hover {
+    color: #800080;}
+/* selected link */
+a:active {
+    color: #0000FF;
 }
 #primarynav {
 	float:left;
 	color:#0000CD;
 	margin-right: 1em;
 	text-align: center;
+	min-width:200px;
+	max-width:560px;
+	
 }
 table.calendar {
 	border-spacing: 0;
@@ -32,8 +52,6 @@ table.calendar {
 .days {
 	background-color: #ccc;
 
-
-
 }
 .secondary-bg {
 	background-color: #f4f4f4;
@@ -49,7 +67,13 @@ table.calendar {
 	min-width:200px;
 	max-width:560px;
 	width:100%;
-	display: block;
+	text-align: center;
+	margin-right: 1em;
+}
+#breadcrumb, .subpage{
+	display: inline-block;
+	border-width: 1px; 
+	margin: 0px 20px 1em;
 	text-align: center;
 	
 }
@@ -57,7 +81,24 @@ table.calendar {
 	float:left;
 	margin-left: 1em;
 	text-align: center;
+	color:#0000CD;
+	margin:4px;
+	padding-left: auto;
+	min-width:200px;
+	max-width:560px;
 	
+}
+.block5 h5{
+	float:center;
+	margin-bottom: auto;
+	background-color: white
+
+}	
+.block6{
+	float:left;
+	text-align:left;
+	padding-left:0;
+  
 }
 .block {
 	float:left;

@@ -17,7 +17,13 @@
     			<form action="processingscript.php" method="post">
     				 <input type="search" name="Search" value="Search">
 				</form>
-			<br>
+			<select>
+  				<option value="Community">Community</option>
+  				<option value="Events">Events</option>
+  				<option value="Gigs">Gigs</option>
+  				<option value="Housing">Housing</option>
+			</select>
+			<input id="go" type="submit" value=">"><br>
 			event calendar<br>
 			<table style= "width:5%" class="calendar">
 				<tr class="days">
@@ -48,8 +54,7 @@
 					<td>14</td>
 				</tr>
 			</table> <br>
-
-
+		
 			help,faq,abuse,legal<br>
 			avoid scams & fraud<br>
 			personal safety tips<br>
@@ -67,13 +72,18 @@
 			craig connects<br>
     	</div>
     	<div id="content">
-    		<div id="breadcrumb" class="secondary-bg">
-    			<span id="page-title"><h2>Washington, DC</h2></span>
-	    		 <span id="breadcrumb-icon">W</span>
-	    		 <span class="subpage">DC</span><span class="subpage">NOVA</span><span class="subpage">MD</span>
+    		<div id="breadcrumb" class="secondary-bg" class="subpage">
+    			<h2 class="subpage">Washington, DC</h2> 
+	    		 <a class="subpage" href="/w/"title="W">w</a>
+	    		 <a class="subpage" href="/doc/" title="district of columbia">doc</a>
+	    		 <a class="subpage" href="/nva/" title="northern virginia">nva</a>
+	    		 <a class="subpage" href="/md/" title ="maryland">mld</a>
+	    		
+	    
 	    	</div>
     		<div id="block-container">
-	    		<div class="block"><h3>Community</h3>	    			<ul>
+	    		<div class="block"><h3>Community</h3>	    			
+	    			<ul>
 	    				<li>item1</li>
 	    				<li>item2</li>
 	    				<li>item3</li>
@@ -149,8 +159,23 @@
 				</div>
     		</div>
     	</div>
-    	<div id="locations" class="secondary-bg main-column-width">Right nav</div>
-	</div>
+    	<div id="locations" class="secondary-bg main-column-width">Right nav
+    		<br><select>
+  				<option value="english">english</option>
+  				<option value="arabic">arabic</option>
+  				<option value="spanish">spanish</option>
+  				<option value="french">french</option>
+  			</select>
+
+	    	<div class="block5"><h5>nearby cl</h5> 
+	    			<ul class="block6">
+	    				<ol>allentown</ol>
+	    				<ol>altoona</ol>
+	    				<ol>annapolis</ol>
+	    				<ol>baltimore</ol>
+	    			</ul>
+			</div>
+		</div>
   </body>
 
 </html>
